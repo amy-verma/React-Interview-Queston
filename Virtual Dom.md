@@ -15,19 +15,19 @@
   - After comparing the virtual DOM to the previous version, React calculates the minimal set of changes requierd to update the actual DOM.
   - Only the parts of the UI that have changed are updated, which is far more efficient  than re-rendering the entire page.
 
-Benefit of Vritual DOM:
+Benefit of Virtual DOM:
 1. Performance - allows quick comparisons and change the UI.
 2. Cross-Browser Compatibility - React app are more consistent acress differnet Browsers
 3. Declerative UI- React’s model allows developers to focus on describing how the UI should look based on the state, 
     rather than worrying about directly manipulating DOM elements.
-
+-------------------------------------------------------------------------------------------------------------------------------------------
 2. Explain the difference between controlled and uncontrolled components in React.
 - In a controlled component, the form element's value is controlled by React state.
 - The value of the input is bound to a React state variable,and every time the user interacts with the input,the state gets updated.
 
  How it Works
 - The form element's value is set by React State(via the value prop).
-- Any Changes made by user(like typing in an input field) trigger and event handler (onChange),which update sthe state,thus updating the value in the input field
+- Any Changes made by user(like typing in an input field) trigger and event handler (onChange),which update the state,thus updating the value in the input field
 example---------------------------
 import React, { useState } from "react";
 
@@ -102,7 +102,7 @@ return (
 - allows you to manage state with reducer function 
 
 3. Context API:
-- The context API is used to manage global state and provide it to deeply nested components wihhout pop drilling.
+- The context API is used to manage global state and provide it to deeply nested components without pop drilling.
 
 - When to use Redux: 
 1. Complex State logic:
@@ -114,7 +114,7 @@ return (
 3. Predictability:
 - Redux enforces strict unidirectional data flow and immutability, making state changes predictable and easier to debug.
 
-- ---------------------------------------------------------------
+- -------------------------------------------------------------------------------------------------------------------------------------------
 4. What are React hooks? Can you explain useState, useEffect, and useContext with examples?
 - React hooks are  the normal JS function that returns peace of JSX.React hooks are function that let you use state and other raect features in fuction components.
 
