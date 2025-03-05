@@ -1,5 +1,5 @@
 Q1: What is useRef, and how is it different from useState?
-- useRef is a React Hook that lets you reference a value thats not needed for redering
+- useRef is a React Hook that lets you reference a value that's not needed for redering
 - It doesn’t trigger re-renders when updated.
 ✅ Unlike useState, updating useRef does not trigger a re-render.
 
