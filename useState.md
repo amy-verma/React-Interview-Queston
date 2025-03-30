@@ -1,10 +1,15 @@
+What is a hook?
+- Hooks lets you to use differnet react features from your components.
+- They are designed to work with functional componenets allows them to manage state and side effects
+
+
 1. What is useState in React?
 
 ✅ Answer:
 useState is a React Hook that allows functional components to manage state. It returns an array with two values:
  the current state and a function to update the state.
 
- import { useState } from "react";
+import { useState } from "react";
 
 function Counter() {
   const [count, setCount] = useState(0); // count state initialized with 0
